@@ -1,0 +1,9 @@
+{
+  "name": "SSAT Vocab Cards",
+  "short_name": "SSAT Cards",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0b0c0f",
+  "theme_color": "#0a84ff",
+  "icons": []
+}
