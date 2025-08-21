@@ -1,0 +1,202 @@
+[
+  {
+    "id": "abate",
+    "word": "abate",
+    "pos": "v.",
+    "definitions": ["to become less intense; to lessen"],
+    "examples": ["After hours of heavy rain, the storm finally abated."],
+    "synonyms": ["diminish", "subside", "lessen"],
+    "antonyms": ["intensify", "increase"],
+    "level": "SSAT-U"
+  },
+  {
+    "id": "abdicate",
+    "word": "abdicate",
+    "pos": "v.",
+    "definitions": ["to give up a position, right, or power"],
+    "examples": ["The king abdicated in favor of his son."],
+    "synonyms": ["resign", "relinquish", "vacate"],
+    "antonyms": ["assume", "seize"],
+    "level": "SSAT-U"
+  },
+  {
+    "id": "abhor",
+    "word": "abhor",
+    "pos": "v.",
+    "definitions": ["to hate deeply"],
+    "examples": ["She abhors cruelty to animals."],
+    "synonyms": ["detest", "loathe", "despise"],
+    "antonyms": ["admire", "cherish"],
+    "level": "SSAT-U"
+  },
+  {
+    "id": "acclaim",
+    "word": "acclaim",
+    "pos": "v.",
+    "definitions": ["to praise enthusiastically and publicly"],
+    "examples": ["The author was acclaimed for her debut novel."],
+    "synonyms": ["applaud", "hail", "commend"],
+    "antonyms": ["criticize", "condemn"],
+    "level": "SSAT-M"
+  },
+  {
+    "id": "adept",
+    "word": "adept",
+    "pos": "adj.",
+    "definitions": ["skilled; proficient"],
+    "examples": ["He is adept at solving complex puzzles."],
+    "synonyms": ["skilled", "expert", "proficient"],
+    "antonyms": ["inept", "clumsy"],
+    "level": "SSAT-M"
+  },
+  {
+    "id": "admonish",
+    "word": "admonish",
+    "pos": "v.",
+    "definitions": ["to warn or reprimand firmly"],
+    "examples": ["The teacher admonished the student for talking."],
+    "synonyms": ["reprimand", "scold", "warn"],
+    "antonyms": ["praise", "approve"],
+    "level": "SSAT-U"
+  },
+  {
+    "id": "alleviate",
+    "word": "alleviate",
+    "pos": "v.",
+    "definitions": ["to make more bearable; to relieve"],
+    "examples": ["This medicine should alleviate the pain."],
+    "synonyms": ["relieve", "mitigate", "ease"],
+    "antonyms": ["aggravate", "exacerbate"],
+    "level": "SSAT-U"
+  },
+  {
+    "id": "amiable",
+    "word": "amiable",
+    "pos": "adj.",
+    "definitions": ["friendly; pleasant"],
+    "examples": ["She has an amiable personality."],
+    "synonyms": ["friendly", "affable", "genial"],
+    "antonyms": ["hostile", "unfriendly"],
+    "level": "SSAT-E"
+  },
+  {
+    "id": "animosity",
+    "word": "animosity",
+    "pos": "n.",
+    "definitions": ["strong hostility"],
+    "examples": ["There is lingering animosity between the rivals."],
+    "synonyms": ["hostility", "enmity", "antagonism"],
+    "antonyms": ["friendliness", "goodwill"],
+    "level": "SSAT-U"
+  },
+  {
+    "id": "antagonize",
+    "word": "antagonize",
+    "pos": "v.",
+    "definitions": ["to provoke hostility"],
+    "examples": ["His rude comments antagonized the audience."],
+    "synonyms": ["provoke", "irritate", "alienate"],
+    "antonyms": ["soothe", "appease"],
+    "level": "SSAT-U"
+  },
+  {
+    "id": "aplomb",
+    "word": "aplomb",
+    "pos": "n.",
+    "definitions": ["self-confidence, especially in a demanding situation"],
+    "examples": ["She handled the interview with aplomb."],
+    "synonyms": ["poise", "assurance", "composure"],
+    "antonyms": ["nervousness", "unease"],
+    "level": "SSAT-U"
+  },
+  {
+    "id": "arduous",
+    "word": "arduous",
+    "pos": "adj.",
+    "definitions": ["difficult; requiring great effort"],
+    "examples": ["Climbing the mountain was an arduous task."],
+    "synonyms": ["difficult", "laborious", "strenuous"],
+    "antonyms": ["easy", "effortless"],
+    "level": "SSAT-U"
+  },
+  {
+    "id": "articulate",
+    "word": "articulate",
+    "pos": "adj.",
+    "definitions": ["able to speak clearly"],
+    "examples": ["He is articulate about his ideas."],
+    "synonyms": ["eloquent", "expressive", "fluent"],
+    "antonyms": ["inarticulate", "incoherent"],
+    "level": "SSAT-M"
+  },
+  {
+    "id": "assuage",
+    "word": "assuage",
+    "pos": "v.",
+    "definitions": ["to make less severe; to soothe"],
+    "examples": ["Her kind words assuaged his fears."],
+    "synonyms": ["soothe", "alleviate", "ease"],
+    "antonyms": ["aggravate", "worsen"],
+    "level": "SSAT-U"
+  },
+  {
+    "id": "audacious",
+    "word": "audacious",
+    "pos": "adj.",
+    "definitions": ["bold; daring"],
+    "examples": ["The plan was audacious but risky."],
+    "synonyms": ["bold", "daring", "brave"],
+    "antonyms": ["timid", "cowardly"],
+    "level": "SSAT-U"
+  },
+  {
+    "id": "augment",
+    "word": "augment",
+    "pos": "v.",
+    "definitions": ["to make larger; increase"],
+    "examples": ["They looked for ways to augment their income."],
+    "synonyms": ["increase", "expand", "enhance"],
+    "antonyms": ["decrease", "reduce"],
+    "level": "SSAT-E"
+  },
+  {
+    "id": "austere",
+    "word": "austere",
+    "pos": "adj.",
+    "definitions": ["severe or strict in manner; plain"],
+    "examples": ["The room was furnished in an austere style."],
+    "synonyms": ["stern", "severe", "plain"],
+    "antonyms": ["luxurious", "ornate"],
+    "level": "SSAT-U"
+  },
+  {
+    "id": "avarice",
+    "word": "avarice",
+    "pos": "n.",
+    "definitions": ["extreme greed for wealth"],
+    "examples": ["His avarice led him to cheat others."],
+    "synonyms": ["greed", "cupidity", "rapacity"],
+    "antonyms": ["generosity", "liberality"],
+    "level": "SSAT-U"
+  },
+  {
+    "id": "belligerent",
+    "word": "belligerent",
+    "pos": "adj.",
+    "definitions": ["hostile and aggressive"],
+    "examples": ["His belligerent remarks started an argument."],
+    "synonyms": ["hostile", "aggressive", "combative"],
+    "antonyms": ["peaceful", "friendly"],
+    "level": "SSAT-M"
+  },
+  {
+    "id": "benevolent",
+    "word": "benevolent",
+    "pos": "adj.",
+    "definitions": ["well-meaning and kindly"],
+    "examples": ["A benevolent donor supported the school."],
+    "synonyms": ["kind", "charitable", "altruistic"],
+    "antonyms": ["malevolent", "unkind"],
+    "level": "SSAT-E"
+  }
+]
