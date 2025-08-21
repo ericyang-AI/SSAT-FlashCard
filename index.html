@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SSAT Vocab Cards</title>
+  <meta name="theme-color" content="#0a84ff">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>SSAT Vocab Cards</h1>
+    <nav>
+      <button id="tabCards" class="active" aria-label="Cards">Cards</button>
+      <button id="tabQuiz" aria-label="Quiz">Quiz</button>
+      <button id="tabStats" aria-label="Dashboard">Dashboard</button>
+      <button id="tabSettings" aria-label="Settings">Settings</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Cards -->
+    <section id="viewCards" class="view visible">
+      <div class="card" id="vocabCard" tabindex="0" aria-label="Vocabulary Card">
+        <div class="face front">
+          <div class="word" id="cardWord">—</div>
+          <div class="pos" id="cardPos">—</div>
+        </div>
+        <div class="face back">
+          <div class="defs" id="cardDefs"></div>
+          <div class="example" id="cardExample"></div>
+        </div>
+      </div>
+      <div class="controls">
+        <button id="btnPrev">◀ Prev</button>
+        <button id="btnFlip">Flip</button>
+        <button id="btnNext">Next ▶</button>
+      </div>
+      <div class="quick">
+        <button id="btnIDK">I don’t know</button>
+        <button id="btnBookmark">Bookmark</button>
+        <button id="btnStartQuiz">Start a Question</button>
+      </div>
+      <div class="status">
+        <span id="statLearning">Learning: 0</span>
+        <span id="statMastered">Mastered: 0</span>
+      </div>
+    </section>
+
+    <!-- Quiz -->
+    <section id="viewQuiz" class="view">
+      <div class="quizcard">
+        <div class="stem" id="quizStem">—</div>
+        <div id="choices" class="choices"></div>
+        <div id="inputArea" class="inputArea" style="display:none;">
+          <input id="freeInput" type="text" placeholder="Type your answer">
+          <button id="btnSubmit">Submit</button>
+        </div>
+        <div class="feedback" id="quizFeedback"></div>
+      </div>
+      <div class="controls">
+        <button id="btnSkip">Skip</button>
+        <button id="btnReveal">Reveal</button>
+        <button id="btnNextQ">Next</button>
+      </div>
+    </section>
+
+    <!-- Stats/Dashboard -->
+    <section id="viewStats" class="view">
+      <div class="grid">
+        <div class="panel">
+          <h3>Today</h3>
+          <div class="kpis">
+            <div><span id="kpiAttempts">0</span><label>Attempts</label></div>
+            <div><span id="kpiAccuracy">0%</span><label>Accuracy</label></div>
+            <div><span id="kpiNewMastered">0</span><label>New Mastered</label></div>
+          </div>
+          <canvas id="chartDonut" width="360" height="180" aria-label="Accuracy donut"></canvas>
+          <canvas id="chartSpark" width="360" height="120" aria-label="Today attempts sparkline"></canvas>
+        </div>
+        <div class="panel">
+          <h3>Mastery Breakdown</h3>
+          <canvas id="chartStack" width="360" height="220" aria-label="Learning vs Mastered"></canvas>
+          <div class="legend"><span class="lg learning"></span>Learning <span class="lg mastered"></span>Mastered</div>
+        </div>
+        <div class="panel">
+          <h3>7-Day Trend</h3>
+          <canvas id="chartLine" width="360" height="220" aria-label="7-day line"></canvas>
+        </div>
+        <div class="panel">
+          <h3>Goal Tracking</h3>
+          <div class="goalbar"><div id="goalProgress"></div></div>
+          <div class="goaltext">
+            <span id="goalLabel">Goal: —</span>
+            <span id="goalAdvice">Daily target: —</span>
+          </div>
+        </div>
+        <div class="panel">
+          <h3>Question-Type Accuracy</h3>
+          <canvas id="chartBars" width="360" height="220" aria-label="Accuracy by type"></canvas>
+        </div>
+        <div class="panel">
+          <h3>Error Hotlist (Top 5)</h3>
+          <ol id="hotlist"></ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- Settings -->
+    <section id="viewSettings" class="view">
+      <div class="panel">
+        <h3>Learning Goal</h3>
+        <label>Total mastered target</label>
+        <input id="inpGoal" type="number" min="1" step="1" placeholder="e.g., 300">
+        <label>Deadline</label>
+        <input id="inpDeadline" type="date">
+        <button id="btnSaveGoal">Save Goal</button>
+      </div>
+      <div class="panel">
+        <h3>Data</h3>
+        <button id="btnExport">Export Progress</button>
+        <input id="fileImport" type="file" accept="application/json" style="display:none;">
+        <button id="btnImport">Import Progress</button>
+        <button id="btnReset" class="danger">Reset All</button>
+      </div>
+      <div class="panel">
+        <h3>About</h3>
+        <p>English-only interface. Works offline. Add to Home Screen for full-screen app.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer><small>&copy; 2025 SSAT Vocab Cards • Offline-ready PWA</small></footer>
+  <script src="app.js"></script>
+</body>
+</html>
